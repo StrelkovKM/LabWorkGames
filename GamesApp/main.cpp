@@ -17,7 +17,7 @@
 
 int main()
 {
-	TSSVoleyball B;
-	cout << B;
+	TSSVoleyball F;
+	cout << F;
 	return 0;
 }
