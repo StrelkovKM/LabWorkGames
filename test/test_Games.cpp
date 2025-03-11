@@ -31,7 +31,7 @@ TEST(TGames, can_set_count)
   EXPECT_NE(0, bf.GetCount());
 }
 
-
+///test
 TEST(TGames, throws_when_create_game_with_negative_count)
 {
   ASSERT_ANY_THROW(TGames bf(-3, ""));
