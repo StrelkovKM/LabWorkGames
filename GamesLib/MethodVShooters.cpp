@@ -1,10 +1,6 @@
 #include <iostream>
 #include "ClassVShooters.h" 
 
-TVShooters::~TVShooters()
-{
-}
-
 TVShooters::TVShooters() : TVGames::TVGames()
 {
 	shootTipe = "Shooter";
@@ -18,6 +14,10 @@ TVShooters::TVShooters(string shootTipe_)
 TVShooters::TVShooters(TVShooters& obj)
 {
 	shootTipe = obj.GetShoot();
+}
+
+TVShooters::~TVShooters()
+{
 }
 
 

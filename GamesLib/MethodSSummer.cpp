@@ -2,7 +2,7 @@
 
 TSSummer::TSSummer() : TSportGames::TSportGames()
 {
-	locate = "";
+	locate = "Locate";
 }
 
 TSSummer::TSSummer(string locate_)

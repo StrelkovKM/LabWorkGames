@@ -3,8 +3,8 @@
 
 TSportGames::TSportGames() : TGames::TGames()
 {
-	season = "";
-	field = "";
+	season = "Season";
+	field = "Field";
 }
 
 TSportGames::TSportGames(string season_, string field_)

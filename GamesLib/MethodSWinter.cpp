@@ -2,7 +2,7 @@
 
 TSWinter::TSWinter() : TSportGames::TSportGames()
 {
-	tools = "";
+	tools = "Tools";
 }
 
 TSWinter::TSWinter(string tools_)

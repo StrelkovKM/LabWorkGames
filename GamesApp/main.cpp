@@ -14,10 +14,18 @@
 #include "ClassSWHockey.h"
 #include "ClassSSFootball.h"
 #include "ClassSSVoleyball.h"
+void print(TGames& obj)
+{
+	cout << obj.GetName() << "\n";
+}
 
 int main()
 {
-	TSSVoleyball F;
-	cout << F;
+	TSSVoleyball Vollay;
+	TVPRedDead RDR;
+	TGames Game;
+	cout << Game.GetName() << "\n";
+	cout << Vollay.GetName() << "\n";
+	print(RDR);
 	return 0;
 }
